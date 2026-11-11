@@ -1,0 +1,28 @@
+# Secrets & local config
+.env
+cookies.txt
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp media & cache
+downloads/
+cache/
+*.ogg
+*.mp3
+*.wav
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# OS
+.DS_Store
+Thumbs.db
