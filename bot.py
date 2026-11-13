@@ -62,6 +62,7 @@ ALLOWED_USERS = {
     if uid.strip().isdigit()
 }
 
+LOGO_PATH = Path(__file__).resolve().parent / "assets" / "logo.png"
 CACHE_DIR = Path(os.getenv("CACHE_DIR", "/tmp/insta_bot_cache"))
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 CACHE_TTL_HOURS = float(os.getenv("CACHE_TTL_HOURS", "2"))  # keep files 2 hours for buttons
@@ -506,6 +507,13 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         "/myid - نمایش شناسه عددی تلگرام شما\n"
         "/stats - وضعیت موقت سرور ربات"
     )
+    if LOGO_PATH.exists():
+        try:
+            with open(LOGO_PATH, "rb") as photo:
+                await update.message.reply_photo(photo=photo, caption=text[:1024], parse_mode=ParseMode.MARKDOWN)
+                return
+        except Exception as e:
+            logger.warning("Could not send start photo banner: %s", e)
     await update.message.reply_text(text, parse_mode=ParseMode.MARKDOWN)
 
 

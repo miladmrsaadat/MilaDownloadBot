@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>نقشهٔ راه بات اینستاگرام به تلگرام</title>
+<style>
+:root{--bg:#060a12;--panel:#0d1420;--panel2:#111d2b;--line:#223349;--text:#f2f6fb;--muted:#9eafc4;--cyan:#65d9d1;--blue:#77b4ff;--amber:#f3bd69;--violet:#bda8ff;--green:#8be0ad}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;padding:44px;background:radial-gradient(ellipse at 14% 2%,#122a3a 0,transparent 28%),radial-gradient(ellipse at 90% 20%,#1a1834 0,transparent 28%),var(--bg);color:var(--text);font-family:"Vazirmatn","Noto Sans Arabic","Noto Sans",Tahoma,Arial,sans-serif}
+main{width:min(1500px,100%);margin:0 auto;padding:54px 58px 42px;border:1px solid #253247;border-radius:28px;background:linear-gradient(145deg,rgba(13,20,32,.97),rgba(8,13,23,.98));box-shadow:0 28px 90px rgba(0,0,0,.45);overflow:hidden;position:relative}
+main:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue),var(--violet),var(--amber))}
+.topline{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:14px;letter-spacing:.04em}.brandmark{display:flex;align-items:center;gap:10px;direction:ltr;font:600 13px/1.2 Inter,Arial,sans-serif;letter-spacing:.12em}.mark{width:12px;height:12px;border:2px solid var(--cyan);border-radius:50%;box-shadow:0 0 15px rgba(101,217,209,.45)}
+header{padding:44px 0 34px;max-width:1100px}h1{font-size:54px;line-height:1.22;letter-spacing:-.04em;margin:0 0 16px;font-weight:750}.subtitle{font-size:21px;color:#b6c4d5;line-height:1.8;margin:0;max-width:1000px}.eyebrow{font-size:13px;color:var(--cyan);font-weight:700;letter-spacing:.08em;margin:0 0 16px}
+.goal{display:grid;grid-template-columns:1.1fr 2fr;gap:28px;padding:28px;border:1px solid #2a4053;background:linear-gradient(120deg,rgba(21,48,60,.72),rgba(16,24,41,.74));border-radius:22px;align-items:center}.goal h2{margin:0 0 12px;font-size:17px;color:var(--cyan)}.goal p{margin:0;font-size:21px;line-height:1.7;font-weight:600}.goal-note{border-right:1px solid #385066;padding-right:25px;color:#c0ccdb;font-size:16px;line-height:1.9}.goal-note strong{color:var(--amber);font-weight:650}
+.section-title{display:flex;align-items:center;gap:14px;margin:38px 0 18px}.section-title h2{margin:0;font-size:21px}.section-title span{color:var(--muted);font-size:14px}.section-title:after{content:"";height:1px;background:var(--line);flex:1}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;direction:rtl}.step{position:relative;padding:17px 16px 18px;border:1px solid var(--line);border-radius:17px;background:rgba(14,23,36,.78);min-height:116px}.step:not(:last-child):after{content:"←";position:absolute;left:-17px;top:42%;color:#547184;font-size:20px;z-index:2}.step small{display:block;color:var(--muted);font-size:12px;margin-bottom:11px}.step strong{font-size:16px;line-height:1.55;display:block}.step .ico{color:var(--cyan);font-size:19px;margin-left:7px}
+.phases{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.phase{border:1px solid var(--line);background:linear-gradient(160deg,rgba(17,29,43,.94),rgba(11,18,29,.96));border-radius:19px;padding:21px 21px 23px;min-height:208px;position:relative;overflow:hidden}.phase:before{content:"";position:absolute;top:0;right:0;left:0;height:2px;background:var(--accent)}.phase-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.phase-num{font:700 12px Inter,Arial,sans-serif;letter-spacing:.08em;color:var(--accent)}.badge{border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);border-radius:999px;padding:5px 9px;color:var(--accent);font-size:11px;white-space:nowrap}.phase h3{margin:0 0 11px;font-size:20px;line-height:1.4}.phase p{color:#aab9ca;margin:0;font-size:14px;line-height:1.8}.phase .gate{color:var(--amber)}
+.bottom{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-top:25px}.components,.guard{border:1px solid var(--line);background:rgba(13,20,32,.84);border-radius:18px;padding:20px 22px}.components h3,.guard h3{margin:0 0 14px;font-size:16px}.chips{display:flex;flex-wrap:wrap;gap:9px}.chip{border:1px solid #31445b;border-radius:999px;padding:8px 12px;color:#c6d4e3;font-size:13px;background:#101b2a}.guard{border-color:#4d422e;background:linear-gradient(130deg,rgba(42,34,20,.48),rgba(13,20,32,.8))}.guard h3{color:var(--amber)}.guard p{margin:0;color:#c8c4b8;font-size:13px;line-height:1.8}
+.footer{display:flex;justify-content:space-between;gap:20px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line);color:#8193a9;font-size:12px;line-height:1.7}.footer strong{color:#b8c6d6;font-weight:600}
+@media(max-width:1100px){body{padding:20px}main{padding:34px}.phases{grid-template-columns:repeat(2,1fr)}.flow{grid-template-columns:repeat(3,1fr)}.step:not(:last-child):after{display:none}}
+@media(max-width:650px){body{padding:8px}main{padding:22px;border-radius:18px}.topline{font-size:11px}header{padding:32px 0 25px}h1{font-size:35px}.subtitle{font-size:16px}.goal,.bottom{grid-template-columns:1fr}.goal-note{border-right:0;border-top:1px solid #385066;padding:18px 0 0}.goal p{font-size:18px}.flow{grid-template-columns:1fr 1fr}.phases{grid-template-columns:1fr}.phase{min-height:auto}.footer{flex-direction:column}}
+@media print{body{padding:0;background:var(--bg)}main{border-radius:0;border:0;box-shadow:none;width:100%;max-width:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="topline"><div class="brandmark"><span class="mark"></span><span>MEDIA FLOW / BUILD MAP</span></div><div>طرح محصول • نسخهٔ اولیه</div></div>
+  <header>
+    <p class="eyebrow">INSTAGRAM → TELEGRAM</p>
+    <h1>از لینک اینستاگرام تا فایل مجاز در تلگرام</h1>
+    <p class="subtitle">ثبت‌نام امن، اعتبار دعوت و دریافت رسانهٔ مجاز از پست/ریلز Instagram؛ TikTok و YouTube هنوز فعال نیستند.</p>
+  </header>
+  <section class="goal">
+    <div><h2>هدف نهایی</h2><p>شمارهٔ خودت ← ۱۰ اعتبار ← دعوت و +۵۰ ← لینک یا دایرکت ← تحویل موفق</p></div>
+    <div class="goal-note"><strong>وضعیت واقعی:</strong> ثبت‌نام، کد دعوت، SQLite، اعتبار و کد جفت‌سازی در کد محلی پیاده شده‌اند. اتصال Meta/Telegram و حساب رسمی هنوز پیکربندی نشده‌اند؛ موقعیت ساختگی برای حساب ایجاد نمی‌شود.</div>
+  </section>
+  <div class="section-title"><h2>گردش‌کار اصلی</h2><span>از ثبت‌نام تا تحویل رسانه</span></div>
+  <section class="flow" aria-label="گردش‌کار">
+    <div class="step"><small>01 / ثبت‌نام</small><strong><span class="ico">☎</span>اشتراک شمارهٔ خود کاربر</strong></div>
+    <div class="step"><small>02 / اعتبار</small><strong><span class="ico">＋</span>۱۰ اولیه و دعوت +۵۰</strong></div>
+    <div class="step"><small>03 / ورودی</small><strong><span class="ico">↗</span>لینک یا کد جفت‌سازی DM</strong></div>
+    <div class="step"><small>04 / دسترسی</small><strong><span class="ico">◉</span>بررسی رسمی Meta</strong></div>
+    <div class="step"><small>05 / خروجی</small><strong><span class="ico">➤</span>ارسال به چت خود کاربر؛ سپس کسر اعتبار</strong></div>
+  </section>
+  <div class="section-title"><h2>فازهای ساخت</h2><span>گیت‌های دسترسی جدا از مسیر MVP</span></div>
+  <section class="phases">
+    <article class="phase" style="--accent:var(--cyan)"><div class="phase-head"><span class="phase-num">PHASE 01</span><span class="badge">کد محلی آماده</span></div><h3>ثبت‌نام و رشد</h3><p>Contact مالک‌محور، ۱۰ اعتبار، referral یکتا با +۵۰، SQLite خصوصی و دکمه‌های بات.</p></article>
+    <article class="phase" style="--accent:var(--blue)"><div class="phase-head"><span class="phase-num">PHASE 02</span><span class="badge">گیت API رسمی</span></div><h3>دانلود لینک‌محور</h3><p>پست/ریلز حساب Professional، کسر اعتبار فقط بعد از تحویل موفق، سقف حجم و پاک‌سازی فایل.</p></article>
+    <article class="phase" style="--accent:var(--amber)"><div class="phase-head"><span class="phase-num">PHASE 03</span><span class="badge">گیت Meta + HTTPS</span></div><h3>اتصال خصوصی DM</h3><p>کد ۱۰ دقیقه‌ای یک‌بارمصرف، مصرف در webhook امضاشده و routing فقط به Telegram همان کاربر.</p></article>
+    <article class="phase" style="--accent:var(--violet)"><div class="phase-head"><span class="phase-num">PHASE 04</span><span class="badge">مرحلهٔ بعد</span></div><h3>راه‌اندازی و گسترش</h3><p>حساب رسمی با اطلاعات واقعی، مجوزهای Meta و آزمون زنده؛ پلتفرم‌های دیگر فقط پس از پیاده‌سازی و تست.</p></article>
+  </section>
+  <section class="bottom">
+    <div class="components"><h3>اجزای نرم‌افزار</h3><div class="chips"><span class="chip">Telegram Bot</span><span class="chip">SQLite / Referral</span><span class="chip">Credit holds</span><span class="chip">Instagram Graph API</span><span class="chip">Meta Webhooks</span><span class="chip">FFmpeg / فایل موقت</span></div></div>
+    <div class="guard"><h3>گاردریل‌های محصول</h3><p>فقط محتوای مالک/مجاز • بدون رمز یا کوکی • بدون userbot • رسانه فقط به چت جفت‌شدهٔ همان کاربر. TikTok و YouTube فعال نیستند؛ موقعیت ساختگی برای حساب رسمی تنظیم نمی‌شود.</p></div>
+  </section>
+  <div class="footer"><span><strong>نسخهٔ اول:</strong> پست/ریلزِ قابل‌دسترسی از حساب Professional؛ کد محلی آماده است اما اتصال زنده، حساب و deployment هنوز انجام نشده.</span><span>Product roadmap / 2026</span></div>
+</main>
+</body>
+</html>
