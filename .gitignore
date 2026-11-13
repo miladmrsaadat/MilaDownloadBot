@@ -23,6 +23,10 @@ cache/
 *.png
 *.webp
 
+# Track artwork & documentation images
+!assets/**
+!docs/**
+
 # OS
 .DS_Store
 Thumbs.db
